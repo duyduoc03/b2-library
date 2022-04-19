@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="478.0" prefWidth="625.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JP2.library.StudentForm">
+   <children>
+      <Text layoutX="221.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add a student">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <TextField fx:id="sName" layoutX="34.0" layoutY="101.0" promptText="Name" />
+      <TextField fx:id="sBirthday" layoutX="397.0" layoutY="101.0" promptText="Birthday" />
+      <TextField fx:id="sPhone" layoutX="34.0" layoutY="169.0" promptText="Phone" />
+      <TextField fx:id="sEmail" layoutX="397.0" layoutY="169.0" promptText="Email" />
+      <TextArea fx:id="sAddress" layoutX="34.0" layoutY="224.0" prefHeight="142.0" prefWidth="546.0" promptText="Address" />
+      <Button layoutX="36.0" layoutY="396.0" mnemonicParsing="false" onAction="#backStudents" text="&lt;&lt; Cancel" />
+      <Button layoutX="519.0" layoutY="396.0" mnemonicParsing="false" onAction="#submit" text="Submit" />
+   </children>
+</Pane>

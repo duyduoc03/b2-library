@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="461.0" prefWidth="627.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JP2.library.RentForm">
+   <children>
+      <Text layoutX="226.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add BookRents">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <TextField fx:id="rSID" layoutX="49.0" layoutY="99.0" promptText="StudentID" />
+      <TextField fx:id="rBID" layoutX="400.0" layoutY="99.0" promptText="BookID" />
+      <TextField fx:id="rQ" layoutX="49.0" layoutY="162.0" promptText="QTY" />
+      <TextField fx:id="rSD" layoutX="400.0" layoutY="162.0" promptText="StartDate" />
+      <TextField fx:id="rED" layoutX="49.0" layoutY="224.0" prefHeight="31.0" prefWidth="186.0" promptText="EndDate" />
+      <Button layoutX="98.0" layoutY="364.0" mnemonicParsing="false" onAction="#backBooks" text="&lt;&lt; Cancel" />
+      <Button layoutX="460.0" layoutY="364.0" mnemonicParsing="false" onAction="#submit" text="Submit" />
+      <TextField fx:id="rUD" layoutX="400.0" layoutY="224.0" prefHeight="31.0" prefWidth="186.0" promptText="UpdateDate" />
+      <TextField fx:id="rS" layoutX="49.0" layoutY="283.0" prefHeight="31.0" prefWidth="186.0" promptText="Status" />
+      <TextField fx:id="rN" layoutX="400.0" layoutY="283.0" prefHeight="31.0" prefWidth="186.0" promptText="Note" />
+   </children>
+</Pane>

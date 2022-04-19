@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="630.0" prefWidth="957.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JP2.library.RentController">
+   <content>
+      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="627.0" prefWidth="954.0">
+         <children>
+            <TableView fx:id="tbBookRents" layoutX="40.0" layoutY="201.0" prefHeight="287.0" prefWidth="872.0">
+               <columns>
+                  <TableColumn fx:id="rSID" prefWidth="78.0" text="StudentID" />
+                  <TableColumn fx:id="rBID" prefWidth="70.0" text="BookID" />
+                  <TableColumn fx:id="rQTY" minWidth="0.0" prefWidth="55.0" text="Qty" />
+                  <TableColumn fx:id="rStartDate" prefWidth="117.0" text="StartDate" />
+                  <TableColumn fx:id="rEndDate" minWidth="0.0" prefWidth="110.0" text="EndDate" />
+                  <TableColumn fx:id="rUpdateDate" minWidth="0.0" prefWidth="99.0" text="UpdateDate" />
+                  <TableColumn fx:id="rStatus" minWidth="0.0" prefWidth="62.0" text="Status" />
+                  <TableColumn fx:id="rNote" minWidth="0.0" prefWidth="201.0" text="Note" />
+                  <TableColumn fx:id="rAction" minWidth="0.0" prefWidth="79.0" text="Action" />
+               </columns>
+            </TableView>
+            <Button layoutX="40.0" layoutY="43.0" mnemonicParsing="false" onAction="#backHome" text="&lt;&lt; Back" />
+            <Button layoutX="787.0" layoutY="43.0" mnemonicParsing="false" onAction="#addBookrents" text="Add a bookrents" />
+         </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="511.0" prefWidth="604.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="JP2.library.StudentController">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="509.0" prefWidth="604.0">
+         <children>
+            <TableView fx:id="tbStudents" layoutX="14.0" layoutY="105.0" prefHeight="215.0" prefWidth="573.0">
+              <columns>
+                <TableColumn fx:id="sName" prefWidth="90.0" text="Name" />
+                <TableColumn fx:id="sBirthday" prefWidth="107.0" text="Birthday" />
+                  <TableColumn fx:id="sAddress" minWidth="0.0" prefWidth="88.0" text="Address" />
+                  <TableColumn fx:id="sEmail" prefWidth="83.0" text="Email" />
+                  <TableColumn fx:id="sPhone" minWidth="0.0" prefWidth="112.0" text="Phone" />
+                  <TableColumn fx:id="sAction" minWidth="0.0" prefWidth="92.0" text="Action" />
+              </columns>
+            </TableView>
+            <Button onAction="#backHome" layoutX="40.0" layoutY="27.0" mnemonicParsing="false" text="&lt;&lt; Back" />
+            <Button onAction="#addStudent" layoutX="476.0" layoutY="27.0" mnemonicParsing="false" text="Add a student" />
+         </children></AnchorPane>
+  </content>
+</ScrollPane>
